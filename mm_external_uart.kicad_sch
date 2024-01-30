@@ -292,13 +292,13 @@
   (symbol (lib_id "Device:C") (at 102.87 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54d2d9e6-1629-44bc-978d-390202ec6842)
-    (property "Reference" "C8" (at 106.68 63.5 0)
+    (property "Reference" "C12" (at 106.68 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 106.68 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.8352 68.58 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.8352 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 64.77 0)
@@ -308,15 +308,6 @@
     (pin "1" (uuid d40bf4ca-6afa-4aa3-99e6-de3005ecff83))
     (instances
       (project "minimouse"
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/7f113667-692a-4f4d-b16f-621d32f3f136"
-          (reference "C8") (unit 1)
-        )
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3975acd0-18ad-47bc-9ce1-d8c4d864aafe"
-          (reference "C9") (unit 1)
-        )
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "C10") (unit 1)
-        )
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/d17bb1c7-f68a-465e-9a17-5858ef86fc30"
           (reference "C12") (unit 1)
         )
@@ -333,7 +324,7 @@
     (property "Value" "100" (at 78.74 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 78.74 86.868 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 78.74 86.868 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 78.74 85.09 0)
@@ -409,7 +400,7 @@
     (property "Value" "Conn_01x04" (at 104.14 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 101.6 82.55 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 101.6 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 82.55 0)
